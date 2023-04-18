@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(to right, rgb(81, 81, 240), rgb(52, 52, 202));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    width: 100vw;
+    position: relative;
+
+}
+
+.conteiner{
+    box-shadow: 2px 2px 2px  black;
+    border-radius: 15px;
+    background-color: rgb(64, 28, 196);
+    padding: 10px;
+    height: 350px;
+    width: 280px;
+    
+}
+
+#altura{
+    border: none;
+    background-color: rgb(214, 231, 247);
+    border-radius: 9px;
+    padding: 8px;
+    margin-bottom: 1rem;
+}
+
+#peso{
+    border: none;
+    border-radius: 9px;
+    padding: 8px;
+    margin-bottom: 1rem;
+}
+
+#calcular{
+    border: none;
+    border-radius: 9px;
+    color: rgb(208, 228, 241);
+    padding: 8px;
+    background-color: rgb(48, 175, 91);
+}
+
+#calcular:hover{background-color: aqua; color: rgb(17, 32, 241);}
+#limpar{
+    border: none;
+    border-radius: 9px;
+    padding: 8px;
+    background-color: aqua;
+    color: aliceblue;
+}
+
+#limpar:hover{background-color: rgb(15, 197, 70); color: rgb(61, 24, 104);}
+
+#resultado{
+    border: none;
+    border-radius: 9px;
+    padding: 40px;
+}
