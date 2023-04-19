@@ -4,15 +4,18 @@ const peso = document.getElementById('peso').value;
 
 
 
-const valorimc = peso/(altura*altura) ;
-const text =''
+const valorimc = (peso/(altura*altura )).toFixed(1) ;
+
+
 if(valorimc <18.5){
-   alert ('tá magrin')
+   alert (`seu IMC é ${valorimc}, então voçê tá magrin!`);
 }else if(valorimc <24.9){
-    alert ('tá um pitel')
+    alert (`seu IMC é ${valorimc}, então voçê tá um pitel!`)
 }else if(valorimc <29.9){
-    alert ('tá gordin')
+    alert (`seu IMC é ${valorimc}, então voçê tá gordin`)
 }
 
 document.getElementById('text_area').innerText= valorimc
+
 }
+

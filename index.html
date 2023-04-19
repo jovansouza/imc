@@ -14,22 +14,21 @@
             <h2>calcule seu IMC</h2>
         </div>
         <div>
-            <label for="altura">Altura</label>
-            <input type="number" name="altura" id="altura" placeholder="digite sua altura">
-            
-        </div>
-        <div>
+           <label for="altura">Altura</label>
+            <input type="number" name="altura" id="altura" placeholder="digite sua altura" required>
+        
             <label for="peso">Peso</label>
-            <input type="number" name="peso" id="peso" placeholder="digite seu peso">
-        </div>
-        <div>
+            <input type="number" name="peso" id="peso" placeholder="digite seu peso" required>
             <button onclick="imc()" id="calcular">CALCULAR</button>
-            <input type="reset" value="limpar" id="limpar">
-            
-        </div>
+           
+             
         <div>
-           <textarea  name="" id="text_area" cols="30" rows="10"></textarea >
-        </div>
+        
+           <div>
+            <textarea  name="" id="text_area" cols="30" rows="7"></textarea >
+           </div>
+          
+        
     </div>
     <script src="script.js"></script>
 </body>
