@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to right, rgb(81, 81, 240), rgb(52, 52, 202));
+    background-image: linear-gradient(to right, rgb(118, 118, 223), rgb(52, 52, 202));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ body{
 .conteiner{
     box-shadow: 2px 2px 2px  black;
     border-radius: 15px;
-    background-color: rgba(64, 28, 196, 0.521);
+    background-color: rgba(64, 28, 196, 0.226);
     padding: 10px;
     height: 358px;
     width: 280px;
