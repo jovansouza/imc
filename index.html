@@ -15,19 +15,27 @@
         </div>
         <div>
            <label for="altura">Altura</label>
-            <input type="number" name="altura" id="altura" placeholder="digite sua altura" required>
+            <input type="number" name="altura" id="altura" placeholder="digite sua altura" required >
         
             <label for="peso">Peso</label>
-            <input type="number" name="peso" id="peso" placeholder="digite seu peso" required>
+            <input type="number" name="peso" id="peso" placeholder="digite seu peso" required  >
             <button onclick="imc()" id="calcular">CALCULAR</button>
            
              
         <div>
         
            <div>
-            <textarea  name="" id="text_area" cols="30" rows="7"></textarea >
+            <textarea  name="" id="text_area" cols="35" rows="3" placeholder="resultado"></textarea >
            </div>
-          
+          <div id="info">
+            <h4>
+                imc abaixo de 18.5 = abaixo do peso <br>
+                imc entre 18.5 e 24.9 = peso ideal <br>
+                imc entre 25 e 29.9 = sobre-peso <br>
+                imc acima de 30 = obesidade
+
+            </h4>
+          </div>
         
     </div>
     <script src="script.js"></script>

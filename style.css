@@ -16,7 +16,7 @@ body{
     border-radius: 15px;
     background-color: rgba(64, 28, 196, 0.521);
     padding: 10px;
-    height: 350px;
+    height: 358px;
     width: 280px;
     
 }
@@ -65,5 +65,14 @@ body{
     border: none;
     border-radius: 9px;
     margin-top: 1rem;
+    
+}
+
+#info{
+    font-size: 13px;
+    border-top: 2px solid rgb(241, 235, 235);
+    border-radius: 9px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
     
 }
